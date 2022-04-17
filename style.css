@@ -1,6 +1,12 @@
-.container-fluid{
-    background-color: #353a40;
+nav.navbar{
+    background-color: #353a40 !important;
 }
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
-	color: #fff;
+    color: #fff;
+}
+.container-fluid {
+	padding-left: 84px;
+	padding-top: px;
+    margin-bottom: 11px;
+    display: flex;
 }
