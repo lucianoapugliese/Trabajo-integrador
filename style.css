@@ -5,8 +5,23 @@ nav.navbar{
     color: #fff;
 }
 .container-fluid {
-	padding-left: 84px;
-	padding-top: px;
+    padding-left: 84px;
     margin-bottom: 11px;
     display: flex;
+}
+#derecha{
+    padding-left: 300px;
+}
+#derecha .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
+    font-size: medium;
+}
+#gris {
+    color: #999d9e;
+}
+#verde {
+    color: #2ba745;
+}
+#derecha li{
+    float: left;
+    overflow: hidden;
 }
