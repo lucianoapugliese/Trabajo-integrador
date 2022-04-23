@@ -1,19 +1,22 @@
+/* Barra de navegacion */
 nav.navbar{
     background-color: #353a40 !important;
 }
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
+header .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
     color: #fff;
+    font-size: 1.121em !important;
 }
-.container-fluid {
+header .container-fluid {
     padding-left: 84px;
     margin-bottom: 11px;
     display: flex;
 }
-#derecha{
-    padding-left: 300px;
+header #derecha{
+    padding-left: 175px;
+    margin-right: 7.5%;
 }
-#derecha .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
-    font-size: medium;
+header #derecha .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
+    font-size: larger;
 }
 #gris {
     color: #999d9e;
@@ -24,4 +27,20 @@ nav.navbar{
 #derecha li{
     float: left;
     overflow: hidden;
+}
+/* Seccion 1 */
+#seccion1{
+    background-image: url("imagenes_integrador_front/ba1.jpg");
+    background-size: 100%;
+    background-position: center -150px;
+    padding-top: 150px;
+    padding-bottom: 180px;
+}
+#seccion1 #columna2{
+    text-align: right;
+    color: #fff;
+}
+#seccion1 .btn-success{
+    background-color: #29a744;
+    border: none;
 }
